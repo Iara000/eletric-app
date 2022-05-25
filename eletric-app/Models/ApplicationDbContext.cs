@@ -8,5 +8,6 @@ namespace eletric_app.Models
         {
         }
         public DbSet<Veiculo> Veiculos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }
